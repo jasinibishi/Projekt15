@@ -1,0 +1,16 @@
+class Student {
+	int id;
+	String ime;
+	Student(int i, String n){
+		id = i;
+		ime = n;
+	}
+	void display() {System.out.println(id + " " + ime);}
+	public static void main (String args[]) {
+		Student s1 = new Student (1488, "Jasin");
+		Student s2 = new Student (1490, "Arian");
+		s1.display();
+		s2.display();
+	}
+
+}
